@@ -1,0 +1,514 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>房间</title>
+<style type="text/css">
+.hz1{
+	width:1200px;
+	height:1200px;
+	background-color:#D2E1D8;
+	overflow:hidden;
+	border:#000 3px;}
+.hz2{
+	width:400px;
+	height:600px;
+	background-color:#33CAEA;
+	margin-top:100px;
+	border-bottom: solid #333 20px;
+	border-right: solid #333 20px;
+	border-top: solid #333 20px;
+	float:left;}
+.hz3{
+	width:30px;
+	height:30px;
+	background-color:#FFF;
+	border-radius:20px;
+	margin-left:60px;
+	margin-top:280px;
+	}
+.hz5{
+	width:1200px;
+	height:300px;
+	background-color:#4E9C9C;
+	margin-top:770px;
+	}
+.hz31{
+	width:40px;
+	height:40px;
+	background-color:#FFF;
+	border-radius:3px 30px;
+	transform:rotate(-50deg);
+	float:left;
+	margin-left:70px;
+	margin-top:-40px}
+.hz37{
+	width:40px;
+	height:40px;
+	background-color:#FFF;
+	border-radius:3px 30px;
+	transform:rotate(-50deg);
+	float:left;
+	margin-left:90px;
+	margin-top:-40px}
+.hz38{
+	width:30px;
+	height:30px;
+	background-color:#FFF;
+	border-radius:20px;
+	margin-left:71px;
+	margin-top:-45px;
+	}
+.hz39{
+	width:30px;
+	height:30px;
+	background-color:#FFF;
+	border-radius:20px;
+	margin-left:70px;
+	margin-top:-10px;
+	}
+.hz30{
+	width:30px;
+	height:30px;
+	background-color:#FFF;
+	border-radius:20px;
+	margin-left:87px;
+	margin-top:-29px;
+	}
+.hz32{
+	width:25px;
+	height:25px;
+	background-color:#FFF;
+	border-radius:20px;
+	margin-left:85px;
+	margin-top:-57px;
+	}
+.hz33{
+	width:28px;
+	height:28px;
+	background-color:#FFF;
+	border-radius:20px;
+	margin-left:94px;
+	margin-top:-20px;
+	}
+.hz34{
+	width:30px;
+	height:20px;
+	background-color:#FFF;
+	border-radius:20px;
+	margin-left:114px;
+	margin-top:-10px;
+	}
+.hz35{
+	width:28px;
+	height:28px;
+	background-color:#FFF;
+	border-radius:20px;
+	margin-left:110px;
+	margin-top:-16px;
+	}
+.hz36{
+	width:25px;
+	height:25px;
+	background-color:#FFF;
+	border-radius:20px;
+	margin-left:115px;
+	margin-top:-45px;
+	}
+.hz333{
+	width:150px;
+	height:100px;
+	margin-top:-360px;
+	margin-left:-60px;
+	}
+.box1{
+	width:00px;
+	height:00px;
+	border:30px solid;
+	border-bottom-color:#669900;
+	border-left-color:transparent;
+	border-right-color:transparent;
+	border-top-color:transparent;
+	margin:0px auto;}
+.box2{
+	width:00px;
+	height:00px;
+	border:40px solid;
+	border-bottom-color:#669900;
+	border-left-color:transparent;
+	border-right-color:transparent;
+	border-top-color:transparent;
+	margin:0px auto;
+	margin-top:-50px;}
+.box3{
+	width:00px;
+	height:00px;
+	border:40px solid;
+	border-bottom-color:#669900;
+	border-left-color:transparent;
+	border-right-color:transparent;
+	border-top-color:transparent;
+	margin:0px auto;
+	margin-top:-55px;}
+.box4{
+	width:00px;
+	height:00px;
+	border:50px solid;
+	border-bottom-color:#669900;
+	border-left-color:transparent;
+	border-right-color:transparent;
+	border-top-color:transparent;
+	margin:0px auto;
+	margin-top:-70px;}
+.box5{
+	width:100px;
+	height:150px;
+	float:left;
+	margin-top:90px;
+	}
+.box7{
+	width:100px;
+	height:150px;
+	float:left;
+	margin-left:-50px;
+	margin-top:90px;
+	}
+.box8{
+	width:100px;
+	height:150px;
+	float:left;
+	margin-left:-40px;
+	margin-top:90px;
+	}
+.box9{
+	width:100px;
+	height:150px;
+	float:left;
+	margin-left:-60px;
+	margin-top:90px;
+	}
+.box6{
+	width:10px;
+	height:50px;
+	margin:0px auto;
+	background-color:#669900;}
+.hz4{
+	width:200px;
+	height:200px;
+	background-color:#FF6;
+	border-radius:200px;}
+.box92{
+	width:00px;
+	height:00px;
+	border:150px solid;
+	border-bottom-color:#FCC;
+	border-left-color:transparent;
+	border-right-color:transparent;
+	border-top-color:transparent;
+	margin:0px auto;
+	margin-top:-200px;}
+
+box95{
+	width:300px;
+	height:200px;
+	background-color:#FCC;
+	}
+.box91{
+	width:10px;
+	height:100px;
+	margin:0px auto;
+	background-color:#FCC;}
+.box93{
+	width:100px;
+	height:100px;
+	background-color:#FF9;
+	border-radius:100px;
+	margin:0px auto;
+	margin-top:-100px;}
+.box94{
+	width:50px;
+	height:50px;
+	background-color:#FC6;
+	border-radius:0px 50px;
+	margin:0px auto;
+	transform:rotate(90deg);
+	margin-top:-70px;
+	}
+.box96{
+	width:50px;
+	height:50px;
+	background-color:#FC6;
+	border-radius:0px 50px;
+	margin:0px auto;
+
+	margin-top:-50px;
+	}
+.hz4{
+	width:400px;
+	height:800px;
+	background-color:#FFF;
+	border:#333 5px solid;
+	border-radius:50px;
+	float:right;
+	margin-top:-860px;
+}
+.hz41{
+	width:300px;
+	height:240px;
+	background-color:#FFF;
+	border:#333 5px solid;
+	border-radius:50px;
+	margin-top:50px;
+	margin-left:50px;
+}
+.hz42{
+	width:300px;
+	height:400px;
+	background-color:#FFF;
+	border:#333 5px solid;
+	border-radius:50px;
+	margin-top:50px;
+	margin-left:50px;
+}
+.hz411{
+	width:20px;
+	height:40px;
+	background-color:#000;
+	border:#333 3px solid;
+	border-radius:10px;
+	margin-top:100px;
+	margin-left:20px;
+}
+.hz422{
+	width:20px;
+	height:40px;
+	background-color:#000;
+	border:#333 3px solid;
+	border-radius:10px;
+	margin-top:180px;
+	margin-left:20px;
+}
+.box81{
+	width:400px;
+	height:300px;
+	float:right;
+	margin-right:410px;
+	margin-top:-350px;}
+
+.box82{
+	width:400px;
+	height:20px;
+	background-color:#FFFF9F;
+	border:#666 3px solid;
+	margin:0px auto;
+	}
+.box83{
+	width:300px;
+	height:120px;
+	background-color:#FFFF9F;
+	border:#666 3px solid;
+	margin:0px auto;
+	}
+.box84{
+	width:300px;
+	height:120px;
+	background-color:#FFFF9F;
+	border:#666 3px solid;
+    margin:0px auto;}
+.box85{
+	width:20px;
+	height:40px;
+	background-color:#FFFF9F;
+	border:#666 3px solid;
+	margin-left:120px;
+	margin-top:-3px;
+    }
+.box86{
+	width:20px;
+	height:40px;
+	background-color:#FFFF9F;
+	border:#666 3px solid;
+	margin-left:250px;
+	margin-top:-43px;
+    }
+.box87{
+	width:20px;
+	height:20px;
+	background-color:#666;
+	border-radius:20px;
+	margin:0px auto;
+	margin-top:10px;}
+.box88{
+	width:20px;
+	height:20px;
+	background-color:#666;
+	border-radius:30px;
+	margin:0px auto;
+	margin-top:10px;}
+.box71{
+	width:100px;
+	height:100px;
+	background-color:#069;
+	border-radius:0px 100px;
+	margin:0px auto;
+	transform:rotate(90deg);
+	margin-top:50px;
+	}
+.box72{
+	width:100px;
+	height:100px;
+	background-color:#069;
+	border-radius:0px 100px;
+	margin:0px auto;
+	margin-top:-100px;
+	}
+.box73{
+	width:100px;
+	height:100px;
+	background-color:#069;
+	border-radius:0px 100px;
+	margin:0px auto;
+	transform:rotate(140deg);
+	margin-top:-100px;
+	}
+.box74{
+	width:100px;
+	height:100px;
+	background-color:#069;
+	border-radius:0px 100px;
+	margin:0px auto;
+	transform:rotate(40deg);
+	margin-top:-100px;
+	}
+.hhh1{
+	width:200px;
+	height:200px;}
+.hhh2{
+	width:200px;
+	height:200px;
+	margin-top:-600px;
+	margin-left:100px;}
+</style>
+</head>
+
+<body>
+<div class="hz1">
+	<div class="hz2">
+    		<div class="hz3"></div>
+            <div class="hz38"></div>
+            <div class="hz39"></div>
+            <div class="hz30"></div>
+            <div class="hz32"></div>
+            <div class="hz33"></div>
+            <div class="hz34"></div>
+            <div class="hz35"></div>
+            <div class="hz36"></div>
+            <div class="hz333">
+            	<div class="hz3"></div>
+            	<div class="hz31"></div>
+            	<div class="hz37"></div>
+            	<div class="hz38"></div>
+            	<div class="hz39"></div>
+           	 	<div class="hz30"></div>
+            	<div class="hz32"></div>
+            	<div class="hz33"></div>
+            	<div class="hz34"></div>
+            	<div class="hz35"></div>
+            	<div class="hz36"></div>
+            </div>
+           <div class="box5">
+			<div class="box1"></div>
+			<div class="box2"></div>
+			<div class="box3"></div>
+			<div class="box4"></div>
+    		<div class="box6"></div>
+		    </div>
+				 <div class="box7">
+			<div class="box1"></div>
+			<div class="box2"></div>
+			<div class="box3"></div>
+			<div class="box4"></div>
+    		<div class="box6"></div>
+		    </div>
+             <div class="box8">
+			<div class="box1"></div>
+			<div class="box2"></div>
+			<div class="box3"></div>
+			<div class="box4"></div>
+    		<div class="box6"></div>
+		    </div>
+             <div class="box9">
+			<div class="box1"></div>
+			<div class="box2"></div>
+			<div class="box3"></div>
+			<div class="box4"></div>
+    		<div class="box6"></div>
+		    </div>
+             <div class="box7">
+			<div class="box1"></div>
+			<div class="box2"></div>
+			<div class="box3"></div>
+			<div class="box4"></div>
+    		<div class="box6"></div>
+		    </div>
+             <div class="box9">
+			<div class="box1"></div>
+			<div class="box2"></div>
+			<div class="box3"></div>
+			<div class="box4"></div>
+    		<div class="box6"></div>
+		    </div>
+              <div class="box7">
+			<div class="box1"></div>
+			<div class="box2"></div>
+			<div class="box3"></div>
+			<div class="box4"></div>
+    		<div class="box6"></div>
+		    </div>
+              
+    </div>
+    
+  	  <div class="box95">
+			<div class="box91"></div>
+			<div class="box92"></div>
+			<div class="box93"></div>
+    		<div class="box94"></div>
+ 			<div class="box96"></div>
+	</div> 
+    <div class="hz5"></div>
+    <div class="hz4">
+    		<div class="hz41">
+            	<div class="hz411"></div>
+            </div>
+			<div class="hz42">
+            	<div class="hz422">
+               		<div class="hhh1">
+                		<div class="box71"></div>
+ 						<div class="box72"></div>
+    					<div class="box73"></div>
+ 						<div class="box74"></div>
+                    </div>
+                    <div class="hhh2">
+                		<div class="box71"></div>
+ 						<div class="box72"></div>
+    					<div class="box73"></div>
+ 						<div class="box74"></div>
+                    </div>
+                </div>
+            </div>
+    </div>
+    <div class="box81">
+    <div class="box82"></div>
+ 	<div class="box83">
+    		 <div class="box87"></div>
+    </div>
+    <div class="box84">
+    		<div class="box88"></div>
+    </div>
+ 	<div class="box85"></div>
+	<div class="box86"></div>
+   
+</div>
+</div>
+</body>
+</html>
